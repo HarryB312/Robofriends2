@@ -1,13 +1,12 @@
 import React from "react";
-import Cardlist from "./CardList";
+import CardList from "./CardList";
+import {robots} from "./robots"
 
-
-const App = () =>{
+const App = () => {
   return(
     <div>
-      <Cardlist/>
+      <CardList robots={robots}/>
     </div>
   )
 }
-
-export default App
+export default App;

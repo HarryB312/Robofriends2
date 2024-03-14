@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const Card = ({name, email, id}) =>{
   return(
-    <div className="bg-light-green dib br3 pa3 ma2 grow">
+    <div>
       <img src={`https://robohash.org/${id}`} alt="" />
       <div>
         <h2>{name}</h2>
@@ -13,5 +14,3 @@ const Card = ({name, email, id}) =>{
 }
 
 export default Card;
-
-
