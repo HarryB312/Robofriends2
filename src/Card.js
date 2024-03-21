@@ -1,16 +1,15 @@
 import React from "react";
 
-
 const Card = ({name, email, id}) =>{
   return(
-    <div>
+    <div className="bg-light-green dib br3 pa3 ma2 grow">
       <img src={`https://robohash.org/${id}`} alt="" />
-      <div>
-        <h2>{name}</h2>
-        <p>{email}</p>
-      </div>
+      <h2>{name}</h2>
+      <p>{email}</p>
     </div>
   )
 }
 
 export default Card;
+
+// bg-light-green dib br3 pa3 ma2 grow
